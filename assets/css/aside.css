@@ -1,0 +1,65 @@
+.float-rsss {
+  float: right;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+
+#float::before {
+  font-size: 1.7em !important;
+  color: #fff;
+}
+
+.float-container-fb {
+  background-color: #3B5998;
+  padding: 0.4em;
+}
+
+.float-container-ig {
+  background-color: #cd486b;
+  padding: 0.4em;
+}
+
+.float-container-twi {
+  background-color: #0084b4;
+  padding: 0.4em;
+}
+
+.float-container-flickr {
+  background-color: #ff0084;
+  padding: 0.4em;
+}
+
+.float-container-you {
+  background-color: #cc181e;
+  padding: 0.4em;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.rayitas {
+  height: 1em;
+  background-color: black;
+  z-index: 1000000;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0
+}
+
+nav.navbar {
+  margin-bottom: 1em;
+  padding-right: 0;
+}
+
+.rayita-1 {
+  background-color: #f702fb;
+  height: 0.5em;
+}
+
+.rayita-2 {
+  background-color: #9f00d0;
+  height: 0.5em;
+}

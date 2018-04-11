@@ -1,0 +1,815 @@
+/* Iconos */
+
+@font-face {
+ font-family: 'Myriad';
+  src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+@font-face {
+ font-family: 'Shadow';
+  src: url('../fonts/ShadowsIntoLight.ttf');
+}
+
+@font-face {
+ font-family: 'Aller';
+  src: url('../fonts/Aller/Aller_Rg.ttf');
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?xmmjrq');
+  src:  url('../fonts/icomoon.eot?xmmjrq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xmmjrq') format('truetype'),
+    url('../fonts/icomoon.woff?xmmjrq') format('woff'),
+    url('../fonts/icomoon.svg?xmmjrq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telephone:before {
+  content: "\e902";
+}
+.icon-earth:before {
+  content: "\e903";
+}
+.icon-pasar:before {
+  content: "\e904";
+}
+.icon-separador:before {
+  content: "\e905";
+}
+.icon-manos:before {
+  content: "\e906";
+}
+.icon-libro:before {
+  content: "\e907";
+}
+.icon-sembrar:before {
+  content: "\e908";
+}
+.icon-donation:before {
+  content: "\e909";
+}
+.icon-guitar:before {
+  content: "\e90a";
+}
+.icon-fax:before {
+  content: "\e90e";
+  color: #616162;
+}
+.icon-der:before {
+  content: "\e900";
+}
+.icon-izq:before {
+  content: "\e901";
+}
+.icon-mail:before {
+  content: "\e90b";
+}
+.icon-sector:before {
+  content: "\e90c";
+  color: #616162;
+}
+.icon-marca:before {
+  content: "\e90d";
+  color: #616162;
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-face:before {
+  content: "\ea91";
+}
+.icon-insta:before {
+  content: "\ea92";
+}
+.icon-what:before {
+  content: "\ea93";
+}
+.icon-twi:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-flickr2:before {
+  content: "\eaa3";
+}
+.icon-flickr:before {
+  content: "\eaa5";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+
+
+body {
+  margin: 0;
+}
+
+.top-container {
+  height: 5em;
+}
+
+.top-color {
+
+}
+
+/* NAvbar */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin-top: 1em;
+  background-color: #fff;
+  z-index: 1;
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+  margin-bottom: 1em;
+}
+.menu {
+  float: right;
+}
+
+.logo a img {
+  width: 13em;
+}
+
+ul.nav li a {
+  color: #141414;
+  font-size: 1.1em;
+  margin-right: 1em;
+  border-right: 1px solid #9f00d0;
+  padding-right: 1em;
+  text-decoration: none;
+}
+
+#last-element-ul {
+  border: 0;
+}
+
+ul.nav {
+  margin-top: 4em;
+}
+
+.carousel-item img {
+  width: 80em;
+}
+
+/* Ajdedrezado */
+#aj_uno {
+  background-color: #9f00d0;
+}
+
+#aj_dos {
+  background-color: #6c9229;
+}
+
+#aj_tres {
+  background-color: #6bb6da;
+}
+
+#aj_cuatro {
+  background-color: #f702fb;
+}
+
+#aj_img_uno {
+  background-image: url('../img/img_sem_0.jpg');
+  background-size: cover;
+}
+
+#aj_img_uno:hover {
+  background-image: url('../img/img_sem_1.jpg');
+  background-size: cover;
+}
+
+#aj_img_dos {
+  background-image: url('../img/img_ninos_0.jpg');
+  background-size: cover;
+}
+
+#aj_img_dos:hover {
+  background-image: url('../img/img_ninos_1.jpg');
+  background-size: cover;
+}
+
+#aj_img_tres {
+  background-image: url('../img/img_manos_0.jpg');
+  background-size: cover;
+}
+
+#aj_img_tres:hover {
+  background-image: url('../img/img_manos_1.jpg');
+  background-size: cover;
+}
+
+#aj_img_cuatro {
+  background-image: url('../img/img_anci_0.jpg');
+  background-size: cover;
+}
+
+#aj_img_cuatro:hover {
+  background-image: url('../img/img_anci_1.jpg');
+  background-size: cover;
+}
+
+
+.aj {
+  margin: 0;
+  padding: 0;
+  height: 15em;
+  color: #fff;
+}
+
+.aj img {
+  height: 15em;
+  width: 100%;
+}
+
+.aj p {
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10%;
+}
+
+/* Footer */
+footer {
+  background-image: url('../img/fondo_2.jpg');
+  color: #fff;
+}
+
+p.footer-title {
+  margin-top: 3em;
+  font-size: 1.8em;
+  border-bottom: 3px solid #cccccc;
+  width: 11em;
+}
+
+p.footer-description {
+    font-size: 1.1em;
+}
+
+#footer-suscription {
+  width: 8em;
+}
+
+.boton-footer {
+  background-color: #6c9229;
+  border: 0;
+}
+
+input#exampleInputEmail1 {
+  width: 18em;
+}
+
+ul.mini-menu-footer {
+  list-style: none;
+  padding: 0;
+}
+
+ul.mini-menu-footer a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+ul.mini-menu-footer a:hover {
+  text-decoration: none;
+}
+
+#post-footer{
+  background-color: #333333;
+}
+
+.post-footer-content {
+  color: #fff;
+  margin: 0 auto;
+}
+
+p.post-footer-title {
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
+p.post-footer-description {
+  color: #6d6a6a;
+  font-size: 1.1em;
+}
+
+#footer-small {
+  font-size: 0.7em;
+}
+
+#desarrolladoPor {
+  margin-top: 4em;
+  color: #fff;
+  font-size: 0.8em;
+}
+.footer-logo {
+  padding-right: 7em;
+  padding-left: 3em;
+}
+
+/* Donar */
+#donar {
+  background-image: url("../img/donar.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+}
+
+#form-payu {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+form#form-payu input {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+button#boton-form-top {
+  background-image: url('../img/boton_4.svg');
+  width: 20em;
+  display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 5em;
+  background-color: transparent;
+  background-position-x: center;
+}
+
+#form-voluntario {
+  display: grid;
+}
+
+.voluntario-title{
+  margin-top: 2em;
+  text-align: center;
+  font-size: 3em;
+}
+
+form#form-voluntario input {
+  height: 3em;
+  box-shadow: none;
+  border: 0;
+  border-bottom: 1px solid;
+}
+
+input[type="submit"] {
+  background-image: url('../img/boton.svg');
+  margin-top: 1em;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-color: transparent;
+  margin-bottom: 5em;
+  border-bottom: 0 !important;
+}
+
+.icon-footer {
+  margin: 0 auto;
+  border: 2px solid;
+  padding: 1em;
+  border-radius: 10em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.icon-footer span {
+  font-size: 3em;
+}
+
+span.icon-marca:before {
+  color: #fff;
+}
+/* Nosotros */
+img#img-nosotros {
+  width: 90%;
+}
+
+p#text-nosotros {
+  font-size: 1.2em;
+}
+
+.iconos-nosotros:before {
+  color: #9f00d0;
+  font-size: 4em;
+}
+
+.iconos-nosotros {
+  text-align: center;
+}
+p.iconos-nosotros-descripcion {
+  text-align: center;
+}
+
+#redes-nosotros {
+  margin-top:4em;
+  margin-bottom: 4em;
+}
+
+#header-nosotros {
+  margin-top: 4em;
+}
+
+#parallax-nosotros {
+  background-image: url("../img/parallax_1.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+}
+
+
+/* Patrocinadores */
+#parallax-patrocinadores {
+  background-image: url("../img/parallax_2.jpg");
+  height: 30em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+}
+
+.slick-slide {
+  height: auto !important;
+}
+
+.customer-logos, .inicio-logos {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+/* Galeria */
+.portadillas {
+  margin-top: 5em;
+  width: 20em;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+.modal-dialog {
+  margin: 0 auto;
+}
+
+.modal-content {
+    width: 100%;
+}
+
+.video-class {
+  border: 1px solid;
+  height: 15em;
+}
+
+.video-grid {
+  margin-top: 5em;
+}
+
+section#video .container {
+    margin-bottom: 5em;
+}
+
+ul.nosotros-contactos {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+ul.nosotros-contactos a {
+    color: #8e8d8d;
+}
+
+ul.nosotros-contactos a:hover {
+    text-decoration: none;
+}
+
+ul.nosotros-contactos a li {
+    margin-top: 0.5em;
+}
+
+ul.nosotros-contactos a li:before {
+    color: #9f00d0;
+}
+
+form#contacto-form {
+    display: grid;
+}
+
+form#contacto-form input, form#contacto-form textarea{
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+form#contacto-form input {
+  height: 3em;
+}
+
+form#contacto-form {
+    margin-top: 5em;
+}
+
+input#submit-contacto {
+    background-image: none;
+    background-color: #9f00d0;
+    width: 10em;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+}
+
+.col-md-6.principal {
+    margin-top: 5em;
+}
+
+/* Vida Sana */
+p#title-vida-sana {
+  font-size: 2em;
+  margin-top: 5%;
+}
+#title-vida-1 {
+  float: left;
+}
+
+#title-vida-2 {
+  float: right;
+}
+
+#title-vida-3 {
+  float: left;
+  font-size: 0.8em !important;
+}
+
+#description-vida {
+  font-size: 1.2em;
+}
+
+#parallax-title {
+  color: #fff;
+  font-size: 1.9em;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.title-caracteristicas-vida {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 2em;
+
+}
+
+.text-caracteristicas-vida {
+  font-size: 1.2em;
+}
+
+section#caracteristicas-vida .container .row .col-md-6 img {
+  width: 100%;
+}
+
+.col-img-vida {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 1em;
+}
+
+section#caracteristicas-vida {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Generando Opciones */
+#generando-head-text {
+  font-size: 3em;
+  margin-top: 5%;
+}
+
+img#generando-logo {
+  float: right;
+  width: 80%;
+}
+.title-generando {
+  font-size: 3em;
+}
+
+.texty-generando {
+  font-size: 1.2em;
+}
+
+.subtitle-generando {
+  font-size: 2em;
+}
+
+#section-description {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+
+/* Adjust Fonts */
+ul.nav li a {
+  font-family: 'Shadow';
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+* {
+  font-family: 'Myriad';
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 14em;
+  z-index: 10000000;
+  background-color: #9f00d0;
+}
+
+.dropdown-content a:hover {
+    color: #f702fb !important;
+}
+
+.dropdown-content a {
+  color: #fff !important;
+  margin-bottom: 0.3em;
+  border-bottom: 1px solid;
+  margin: 0.3em;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#img-vida {
+  width: 90%;
+}
+
+section#galeria {
+    margin-bottom: 10em;
+}
+
+/* Carousel Index */
+#carousel-index {
+  background-color: #6bb6da;
+
+}
+
+.mariposa:before {
+  font-size: 12em;
+  opacity: .30;
+}
+
+.mariposa {
+  margin-top: 1.5em;
+}
+
+.slide {
+  text-align: center;
+}
+
+.slider-index {
+  font-size: 10em;
+  color: #fff;
+  text-align: center;
+}
+
+section#carousel-index::before {
+  content: "\e903";
+  font-family: IcoMoon;
+  position: absolute;
+  font-size: 15em;
+  opacity: .30;
+  right: 12%;
+}
+
+.minitexty {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.slide-pasar {
+  color: #fff;
+  font-size: 3em;
+  display: block;
+  margin-top: 2em;
+}
+
+.show ul li a {
+    border: 0;
+    display: block;
+}
+
+.show ul li {
+    margin-left: 6em;
+    margin-bottom: 0.5em;
+}
+
+.show ul li a:hover {
+color: #9f00d0;
+}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+
+/* Picnics */
+.picnic-galeria {
+
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
